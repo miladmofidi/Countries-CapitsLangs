@@ -10,11 +10,6 @@ import org.springframework.stereotype.Component;
 public class LanguageMapperImpl implements LanguageMapper<User>
 
 {
- /*   @Override
-    public User map(User user)
-    {
-        return mapLanguage(user);
-    }*/
 
     private User mapLanguage(User user)
     {
