@@ -1,6 +1,5 @@
 # Countries-CapitsLangs
-Finding and mapping users' countries' capitals and their languages
-
+Finding and mapping users Countries' capitals and languages using list of generic mappers
 ## prerequisites
 JDK 1.8  
 Maven
@@ -11,8 +10,8 @@ Build and run project with command line in windows:
 ```bash
   cd <project-path>
   mvn clean Install
-  javac Application.java
-  java -jar Application.java
+  javac DemoApplication.java
+  java -jar DemoApplication.java
 ```
 ## Authors
 
