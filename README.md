@@ -16,4 +16,4 @@ Build and run project with command line in windows:
 ## Authors
 
 - [@miladmofidi](https://www.github.com/miladmofidi)
-- milad.mofidi@gmail.com
+- milad.mofidi@gmail.com 
