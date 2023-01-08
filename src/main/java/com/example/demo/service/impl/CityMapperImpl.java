@@ -1,9 +1,9 @@
-package org.example.service.impl;
+package com.example.demo.service.impl;
 
 
-import org.example.service.abstracts.CityMapper;
-import org.example.model.CountriesAndLanguagesData;
-import org.example.model.User;
+import com.example.demo.service.abstracts.CityMapper;
+import com.example.demo.model.CountriesAndLanguagesData;
+import com.example.demo.model.User;
 import org.springframework.stereotype.Component;
 
 @Component

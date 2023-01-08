@@ -1,20 +1,15 @@
-package org.example.service.impl;
+package com.example.demo.service.impl;
 
 
-import org.example.service.abstracts.LanguageMapper;
-import org.example.model.CountriesAndLanguagesData;
-import org.example.model.User;
+import com.example.demo.model.CountriesAndLanguagesData;
+import com.example.demo.model.User;
+import com.example.demo.service.abstracts.LanguageMapper;
 import org.springframework.stereotype.Component;
 
 @Component
 public class LanguageMapperImpl implements LanguageMapper<User>
 
 {
- /*   @Override
-    public User map(User user)
-    {
-        return mapLanguage(user);
-    }*/
 
     private User mapLanguage(User user)
     {

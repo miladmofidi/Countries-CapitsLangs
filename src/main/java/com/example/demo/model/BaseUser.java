@@ -1,6 +1,11 @@
-package org.example.model;
+package com.example.demo.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Optional;
+
 
 public class BaseUser
 {
@@ -19,9 +24,9 @@ public class BaseUser
         this.lastName = lastName;
     }
 
-    public Optional<Integer> getId()
+    public int getId()
     {
-        return Optional.ofNullable(id);
+        return id;
     }
 
     public void setId(int id)
@@ -29,9 +34,9 @@ public class BaseUser
         this.id = id;
     }
 
-    public Optional<String> getFirstName()
+    public String getFirstName()
     {
-        return Optional.ofNullable(firstName);
+        return firstName;
     }
 
     public void setFirstName(String firstName)
@@ -52,11 +57,10 @@ public class BaseUser
     @Override
     public String toString()
     {
-        return "User{" +
+        return "BaseUser(" +
                "id=" + id +
-               ", name='" + firstName + '\'' +
-               '}';
+               ", firstName='" + firstName + '\'' +
+               ", lastName='" + lastName + '\'' +
+               ')';
     }
-
-
 }
